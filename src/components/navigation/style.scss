@@ -1,0 +1,29 @@
+.container {
+  ul {
+    display: flex;
+    a {
+      text-decoration: none;
+    }
+    li {
+      margin-left: 40px;
+      margin-right: 40px;
+      font-size: 24px;
+      line-height: 32px;
+      color: #1b2437;
+    }
+  }
+}
+@media only screen and(max-width: 480px) {
+  .container {
+    ul {
+      a {
+        li {
+          font-size: 18px;
+          line-height: 16px;
+          margin-right: 20px;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

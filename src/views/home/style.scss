@@ -1,0 +1,211 @@
+.home-view {
+  width: 100%;
+  overflow: hidden;
+  .content-first {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 540px;
+    background: #b6aba7;
+
+    .text {
+      color: #ffffff;
+      margin-right: 195px;
+      margin-top: 125px;
+    }
+    .text > h1 {
+      width: 361px;
+      font-family: "Playfair Display";
+      font-size: 48px;
+      line-height: 64px;
+      margin-bottom: 16px;
+    }
+    .text > p {
+      font-family: "Mulish", sans-serif;
+      width: 378px;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 36px;
+    }
+    .image {
+      background-image: url(../../assets/rodolfoMarques.png);
+      width: 685px;
+      height: 540px;
+    }
+  }
+  .content-second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+
+    .item-women {
+      background-image: url(../../assets/averie-woodard.png);
+      background-size: cover;
+      width: 558px;
+      height: 460px;
+      color: #ffffff;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 16px;
+      margin-right: 44px;
+
+      h2 {
+        width: 160px;
+        height: 102px;
+        font-family: "Playfair Display";
+        font-size: 34px;
+        line-height: 51px;
+        letter-spacing: 0.4px;
+        margin-left: 32px;
+        margin-top: 32px;
+      }
+      h3 {
+        font-family: "Mulish";
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 32px;
+        margin-top: 12px;
+      }
+      button {
+        margin-top: 24px;
+        margin-left: 32px;
+      }
+    }
+    .top-block {
+      display: flex;
+      margin-bottom: 44px;
+
+      .item-bestselers {
+        background-color: #efeff4;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 16px;
+        width: 267px;
+        height: 208px;
+        margin-right: 22px;
+        p {
+          font-family: "Mulish";
+          font-size: 16px;
+          line-height: 20px;
+          color: #1b2437;
+          margin-left: 32px;
+          margin-top: 65px;
+          margin-bottom: 16px;
+        }
+        h2 {
+          font-family: "Playfair Display";
+          font-size: 34px;
+          line-height: 45px;
+          letter-spacing: 0.4px;
+          color: #1b2437;
+          margin-left: 32px;
+          margin-top: 50px;
+        }
+      }
+      .item-dresses {
+        background-image: url(../../assets/ussama-azam.png);
+        width: 267px;
+        height: 208px;
+        border-radius: 16px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+        h2 {
+          font-family: "Playfair Display";
+          width: 203px;
+          font-size: 34px;
+          line-height: 45px;
+          letter-spacing: 0.4px;
+          color: #ffffff;
+          margin-top: 65px;
+          margin-left: 32px;
+          margin-right: 32px;
+          margin-bottom: 33px;
+        }
+        button {
+          margin-left: 32px;
+          margin-right: 32px;
+          margin-top: 32px;
+        }
+      }
+    }
+    .item-denim {
+      background-color: #eec6c1;
+      border-radius: 16px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      background-image: url(../../assets/Mask.png);
+      background-position: right;
+
+      background-repeat: no-repeat;
+      width: 558px;
+      height: 208px;
+      h2 {
+        font-family: "Playfair Display";
+        font-size: 34px;
+        line-height: 45px;
+        letter-spacing: 0.4px;
+        color: #ffffff;
+        margin-left: 32px;
+      }
+      button {
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-bottom: 66px;
+      }
+    }
+  }
+}
+
+@media only screen and(max-width: 480px) {
+  .home-view {
+    width: 100%;
+
+    .content-first {
+      background: #b6aba7;
+      .text {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .image {
+        background-image: url(../../assets/rodolfoMarques.png);
+        width: 100%;
+      }
+    }
+    .content-second {
+      margin-bottom: 20px;
+      margin-top: 20px;
+
+      display: block;
+      box-sizing: border-box;
+      padding: 20px;
+      .item-women {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .top-block {
+        display: block;
+        margin-bottom: 20px;
+        .item-bestselers {
+          width: 100%;
+          margin-top: 0;
+          margin-bottom: 20px;
+          p {
+            margin-top: 0;
+          }
+        }
+        .item-dresses {
+          width: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
+      .item-denim {
+        width: 100%;
+      }
+    }
+  }
+}
+@media only screen and(max-width: 480px) {
+}

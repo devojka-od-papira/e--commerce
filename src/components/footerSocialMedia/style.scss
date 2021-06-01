@@ -1,0 +1,24 @@
+.footer-social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #efeff4;
+  height: 72px;
+  box-sizing: border-box;
+  padding-left: 115px;
+  padding-right: 115px;
+  .copy {
+    font-family: "Mulish";
+    font-size: 16px;
+    line-height: 20px;
+    color: #8e8e93;
+  }
+  .icon-footer {
+    .icon {
+      font-size: 24px;
+      margin-left: 25px;
+      margin-right: 25px;
+      color: #1b2437;
+    }
+  }
+}
